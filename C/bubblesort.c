@@ -3,8 +3,9 @@
 int main()
 {
    int a[100], number, i, j, temp;
-   
+   //printf is used to print the statement//
    printf("\n Please enter the total number of elements  :  ");
+ //scanf to take the input from the user//
    scanf("%d", &number);
    
    printf("\n Please enter the array elements  : \n");
@@ -28,6 +29,7 @@ int main()
    {
        printf(" %d \t", a[i]);
    }
+ //\n to print the statement in last line//
    printf("\n");
    printf("\n Positions of even elements in sorted array : \n ");
    for(i = 0; i < number; i++)
